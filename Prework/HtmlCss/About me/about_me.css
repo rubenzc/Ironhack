@@ -1,0 +1,14 @@
+body{
+	background-color: #f0f8ff;
+}
+
+p{
+	background-color: #fff8dc;
+	font-family: "Baskerville";
+	font-size: 22px;
+}
+
+.photos{
+	width: 40%;
+	height: 40%;
+}
