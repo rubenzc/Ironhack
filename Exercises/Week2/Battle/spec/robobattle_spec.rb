@@ -1,4 +1,4 @@
-require './robobattleBetter.rb'
+require './robobattle.rb'
 require 'rspec'
 
 RSpec.describe "Battle" do

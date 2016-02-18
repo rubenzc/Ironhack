@@ -1,0 +1,36 @@
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  padding: 24px 15px;
+  text-align: center;
+}
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+  position: relative;
+     }
+
+span{
+  position: absolute;
+  display: inline-block;
+  line-height: 22px;
+  color: white;
+  right: 10px;
+  text-align: center;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  bottom: -25px;
+  background-color: red;
+}
+
+span:before{
+  content: '';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: blue;
+}

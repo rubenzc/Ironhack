@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Insecure Password</title>
+  </head>
+  <body>
+    <h1>Check password with your user: <%= @email_recover %></h1>
+
+    <div id="article">
+      <h2>Error gilipollas!!</h2>
+      <h3>Please check if your email and password are correct</h3>
+      <p>
+        <ul>
+          <li>Contains 1 lower case</li>
+          <li>Contains 1 upper case</li>
+          <li>Contains 1 number</li>
+          <li>Contain 1 special char like: <strong>(* # !)</strong></li>
+          <li>And that the password does not contain your email (user or domain)</li>
+        </ul>
+      </p>
+
+      <form action="/send_data"method="POST">
+        <input type="email" name="email" placeholder="email" value="<%= @email_recover %>">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit" name="login" value="login">Log in</button>
+      </form>
+        
+      </form>
+    </div>
+    
+  </body>
+</html>

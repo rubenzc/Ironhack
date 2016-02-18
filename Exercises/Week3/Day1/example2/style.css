@@ -1,0 +1,10 @@
+.box-set {
+  background: #eaeaed;
+}
+.box {
+  background: #2db34a;
+  text-align: center;
+  float: left;
+  margin: 1.85%;
+  width: 30%;
+}

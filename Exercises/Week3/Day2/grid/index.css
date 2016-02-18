@@ -1,0 +1,15 @@
+.row div{
+  display: inline-block;
+  background-color: orange;
+}
+
+
+/*Media queries que modifican el comportamiento en función de la resolución*/
+@media only screen and ( min-width: 1024px ) {
+    body:after {
+       content: "1024 and up";
+       background-color: green;
+       font-size: 1rem;
+    }
+}
+ 

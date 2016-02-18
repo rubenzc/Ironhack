@@ -1,0 +1,17 @@
+.header{
+  background-color: gray;
+}
+
+.container.clearfix{
+  background-color: red;
+}
+
+.container.clearfix article{
+  background-color: green;
+  text-align: center;
+}
+
+.container.clearfix article footer{
+  background-color: yellow;
+  float: left;
+}
