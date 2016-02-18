@@ -44,8 +44,11 @@ var Pit = function(fighter1, fighter2, turn){
 
 //var viking1 = new Viking('Brutus', Math.floor((Math.random()*100)+1), Math.floor((Math.random()*20)+1))
 //var viking2 = new Viking('Pepote', Math.floor((Math.random()*100)+1), Math.floor((Math.random()*20)+1))
-var viking1 = new Viking('Brutus', 90, 20)
-var viking2 = new Viking('Pepote', 100, 10)
+//var viking1 = new Viking('Brutus', 90, 20)
+//var viking2 = new Viking('Pepote', 100, 10)
+
+var saxons = new Saxons(Math.floor((Math.random()*10)+1), Math.floor((Math.random()*10)+1), Math.floor((Math.random()*10)+1), Math.floor((Math.random()*10)+1))
+var vikings = new Viking('Thor', Math.floor((Math.random()*500)+1), Math.floor((Math.random()*500)+1))
 
 
 var trainingPit = new Pit(viking1, viking2, 2)

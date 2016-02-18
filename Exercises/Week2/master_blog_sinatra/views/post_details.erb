@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RU'S IRONHACK BLOG</title>
+  </head>
+  <body>
+    <h1>Welcome to my blog</h1>
+      <h3><%= @post.title %></h3>
+      <p><%= @post.show_in_strftime %></p>
+      <p><%= @post.text %></p>
+      <p><%= @post.author %></p>
+      <p><%= @post.category %></p>
+      
+      <h3><a href="/new_post">New post</a></h3>
+      <h3><a href="/homepage">HOME</a></h3>
+
+      <!-- <form action ="/new_post" method="POST">
+        <button type="submit">New post</button>
+      </form> -->
+  </body>
+</html>
